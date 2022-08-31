@@ -1,0 +1,185 @@
+.App {
+    padding: 50px 83px;
+    width: 100vw;
+    height: 100vw;
+}
+
+.App-header {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #4F4F4F;
+    text-align: left;
+}
+
+.wrapper {
+    height: 60px;
+    margin-top: 35px;
+    &__header {
+        font-family: 'Ubuntu Mono';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 12px;
+        color: #333333;
+    }
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+}
+
+button {
+    margin-top: 12px;
+    width: 81px;
+    height: 36px;
+    box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+    border-radius: 6px;
+    font-family: 'Noto Sans JP';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    border:none;   
+}
+
+.gray {
+    background-color: #E0E0E0;
+
+    &:hover, &:focus {
+        background: #AEAEAE;
+        box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+        border-radius: 6px;
+    }
+}
+
+.outline {
+    border: 1px solid #3D5AFE;
+    background: none;
+    color: #3D5AFE;
+
+    &:hover, &:focus {
+        background: rgba(41, 98, 255, 0.1);
+    }
+}
+
+.text {
+    color: #3D5AFE;
+    border: none;
+    background: none;
+    box-shadow: none;
+
+    &:hover, &:focus {
+        background: rgba(41, 98, 255, 0.1);
+    }
+}
+
+.disableShadow {
+    background: #3D5AFE;
+    color: #FFFFFF;
+}
+
+.disabled {
+    background: #E0E0E0;
+    color: #9E9E9E;
+}
+.disabledText {
+    color: #9E9E9E;
+    background: none;
+    box-shadow: none;
+}
+
+.startIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction:row-reverse;
+    width: 105px;
+    background: #2962FF;
+    color: #FFFFFF;
+
+    &:hover, &:focus {
+        background: #0039CB;
+    }
+
+    img {
+        height: 20px;
+        width: 20px;
+        
+    }
+}
+.endIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 105px;
+    background: #2962FF;
+    color: #FFFFFF;
+    &:hover, &:focus {
+        background: #0039CB;
+    }
+    img {
+        height: 20px;
+        width: 20px;
+        
+    }
+}
+
+.sm {
+    width: 73px;
+    height: 32px;
+    background: #2962FF;
+    color: #FFFFFF;
+    &:hover, &:focus {
+        background: #0039CB;
+    }
+}
+
+.md {
+    background: #2962FF;
+    color: #FFFFFF;
+    &:hover, &:focus {
+        background: #0039CB;
+    }
+}
+
+.lg {
+    width: 93px;
+    height: 42px;
+    background: #2962FF;
+    color: #FFFFFF;
+    &:hover, &:focus {
+        background: #0039CB;
+    }
+}
+
+.secondary {
+    width: 104px;
+    height: 36px;
+    background: #455A64;
+    color: #FFFFFF;
+    &:hover, &:focus {
+        background: #1C313A;
+    }
+}
+
+.danger {
+    background: #D32F2F;
+    color: #FFFFFF;
+    &:hover, &:focus {
+        background:#9A0007;
+    }
+}
+
+footer {
+    padding-top: 20px;
+    font-size: 14px;
+    color: #A9A9A9;
+}
+
