@@ -1,14 +1,19 @@
-const CreateButton = ({className, buttonText, headerText, src}) => {
+const CreateButton = ({className, headerText, src}) => {
+
+    const image = <><div>Default</div><img src={src} alt="shopping"/></>;
+
+    const buttonText = (className === "startIcon" || className === "endIcon") ? image : "Default";
+
     return (
         <div className='wrapper'>
         <div className='wrapper__header'>{headerText}</div>
         <button className={className}>
             {buttonText}
-            <img src={src} alt="shopping"/>
         </button>
         </div>
         
     )
   }
+
   
   export default CreateButton;
